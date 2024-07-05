@@ -1,6 +1,6 @@
 {
-  "name": "tg-bot-mailer",
-  "version": "1.0.0",
+  "name": "@airwolk/tg-bot-mailer",
+  "version": "1.0.1",
   "description": "TG Bot Mailer",
   "main": "index.js",
   "repository": {
