@@ -1,8 +1,9 @@
 {
-  "name": "@airwolk/tg-bot-mailer",
-  "version": "1.0.1",
+  "name": "tg-bot-mailer",
+  "version": "1.0.3",
   "description": "TG Bot Mailer",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/valerii-d/tg-bot-mailer.git"
@@ -12,6 +13,12 @@
   "bugs": {
     "url": "https://github.com/valerii-d/tg-bot-mailer/issues"
   },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist/**/*"
+  ],
   "homepage": "https://github.com/valerii-d/tg-bot-mailer#readme",
   "devDependencies": {
     "@types/chunk": "^0.0.0",
